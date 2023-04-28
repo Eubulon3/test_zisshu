@@ -1,0 +1,31 @@
+@charset "UTF-8";
+#content1{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: #ddd;
+    text-align: center;
+    display: flex;
+    align-items: center;
+}
+#content1 #unity-webgl{
+    display: block;
+    position: relative;
+    margin: auto auto;
+    width: 80%;
+}
+
+#unity-canvas {
+    margin: 0, auto;
+}
+  
+
+@media screen and (max-width:480px){
+    #unity-webgl{
+        width: 350px;
+        height: 700px;
+    }
+
+}
